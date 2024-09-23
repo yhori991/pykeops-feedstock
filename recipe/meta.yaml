@@ -1,0 +1,50 @@
+{% set name = "pykeops" %}
+{% set version = "2.2.3" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://github.com/getkeops/keops/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 9725ee733b6b24e93e42c756ff5d419b833c7acc103e9a1bb2071e20ceddc4d8
+
+build:
+  number: 0
+  skip: true  # [py<36]
+
+requirements:
+  build:
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+    - cmake
+    - git
+    - {{ compiler('cxx') }}
+  host:
+    - python
+    - pip
+    - numpy
+  run:
+    - pybind11
+    - pytorch
+    - numpy
+
+test:
+  imports:
+    - pykeops
+  commands:
+    - pip check
+  requirements:
+    - pytest
+
+about:
+  home: https://www.kernel-operations.io
+  summary: KErnel OPerationS, on CPUs and GPUs, with autodiff and without memory overflows
+  license: MIT
+  license_file:
+    - licence.txt
+    - pykeops/licence.txt
+
+extra:
+  recipe-maintainers:
+    - yhori991
