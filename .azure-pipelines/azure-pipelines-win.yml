@@ -8,41 +8,41 @@ jobs:
     vmImage: windows-2022
   strategy:
     matrix:
-      win_64_blas_implgenericcuda_compilerNonecuda_compiler_versionNonenumpy1.22python3.10.____cpython:
-        CONFIG: win_64_blas_implgenericcuda_compilerNonecuda_compiler_versionNonenumpy1.22python3.10.____cpython
+      win_64_blas_implbliscuda_compilerNonecuda_compiler_versionNonenumpy1.22python3.10.____cpython:
+        CONFIG: win_64_blas_implbliscuda_compilerNonecuda_compiler_versionNonenumpy1.22python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_blas_implgenericcuda_compilerNonecuda_compiler_versionNonenumpy1.22python3.9.____cpython:
-        CONFIG: win_64_blas_implgenericcuda_compilerNonecuda_compiler_versionNonenumpy1.22python3.9.____cpython
+      win_64_blas_implbliscuda_compilerNonecuda_compiler_versionNonenumpy1.22python3.9.____cpython:
+        CONFIG: win_64_blas_implbliscuda_compilerNonecuda_compiler_versionNonenumpy1.22python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_blas_implgenericcuda_compilerNonecuda_compiler_versionNonenumpy1.23python3.11.____cpython:
-        CONFIG: win_64_blas_implgenericcuda_compilerNonecuda_compiler_versionNonenumpy1.23python3.11.____cpython
+      win_64_blas_implbliscuda_compilerNonecuda_compiler_versionNonenumpy1.23python3.11.____cpython:
+        CONFIG: win_64_blas_implbliscuda_compilerNonecuda_compiler_versionNonenumpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_blas_implgenericcuda_compilerNonecuda_compiler_versionNonenumpy1.26python3.12.____cpython:
-        CONFIG: win_64_blas_implgenericcuda_compilerNonecuda_compiler_versionNonenumpy1.26python3.12.____cpython
+      win_64_blas_implbliscuda_compilerNonecuda_compiler_versionNonenumpy1.26python3.12.____cpython:
+        CONFIG: win_64_blas_implbliscuda_compilerNonecuda_compiler_versionNonenumpy1.26python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_blas_implgenericcuda_compilercuda-nvcccuda_compiler_version12.0numpy1.22python3.10.____cpython:
-        CONFIG: win_64_blas_implgenericcuda_compilercuda-nvcccuda_compiler_version12.0numpy1.22python3.10.____cpython
+      win_64_blas_implbliscuda_compilercuda-nvcccuda_compiler_version12.0numpy1.22python3.10.____cpython:
+        CONFIG: win_64_blas_implbliscuda_compilercuda-nvcccuda_compiler_version12.0numpy1.22python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_blas_implgenericcuda_compilercuda-nvcccuda_compiler_version12.0numpy1.22python3.9.____cpython:
-        CONFIG: win_64_blas_implgenericcuda_compilercuda-nvcccuda_compiler_version12.0numpy1.22python3.9.____cpython
+      win_64_blas_implbliscuda_compilercuda-nvcccuda_compiler_version12.0numpy1.22python3.9.____cpython:
+        CONFIG: win_64_blas_implbliscuda_compilercuda-nvcccuda_compiler_version12.0numpy1.22python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_blas_implgenericcuda_compilercuda-nvcccuda_compiler_version12.0numpy1.23python3.11.____cpython:
-        CONFIG: win_64_blas_implgenericcuda_compilercuda-nvcccuda_compiler_version12.0numpy1.23python3.11.____cpython
+      win_64_blas_implbliscuda_compilercuda-nvcccuda_compiler_version12.0numpy1.23python3.11.____cpython:
+        CONFIG: win_64_blas_implbliscuda_compilercuda-nvcccuda_compiler_version12.0numpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_blas_implgenericcuda_compilercuda-nvcccuda_compiler_version12.0numpy1.26python3.12.____cpython:
-        CONFIG: win_64_blas_implgenericcuda_compilercuda-nvcccuda_compiler_version12.0numpy1.26python3.12.____cpython
+      win_64_blas_implbliscuda_compilercuda-nvcccuda_compiler_version12.0numpy1.26python3.12.____cpython:
+        CONFIG: win_64_blas_implbliscuda_compilercuda-nvcccuda_compiler_version12.0numpy1.26python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_blas_implgenericcuda_compilernvcccuda_compiler_version11.8numpy1.22python3.10.____cpython:
-        CONFIG: win_64_blas_implgenericcuda_compilernvcccuda_compiler_version11.8numpy1.22python3.10.____cpython
+      win_64_blas_implbliscuda_compilernvcccuda_compiler_version11.8numpy1.22python3.10.____cpython:
+        CONFIG: win_64_blas_implbliscuda_compilernvcccuda_compiler_version11.8numpy1.22python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_blas_implgenericcuda_compilernvcccuda_compiler_version11.8numpy1.22python3.9.____cpython:
-        CONFIG: win_64_blas_implgenericcuda_compilernvcccuda_compiler_version11.8numpy1.22python3.9.____cpython
+      win_64_blas_implbliscuda_compilernvcccuda_compiler_version11.8numpy1.22python3.9.____cpython:
+        CONFIG: win_64_blas_implbliscuda_compilernvcccuda_compiler_version11.8numpy1.22python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_blas_implgenericcuda_compilernvcccuda_compiler_version11.8numpy1.23python3.11.____cpython:
-        CONFIG: win_64_blas_implgenericcuda_compilernvcccuda_compiler_version11.8numpy1.23python3.11.____cpython
+      win_64_blas_implbliscuda_compilernvcccuda_compiler_version11.8numpy1.23python3.11.____cpython:
+        CONFIG: win_64_blas_implbliscuda_compilernvcccuda_compiler_version11.8numpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_blas_implgenericcuda_compilernvcccuda_compiler_version11.8numpy1.26python3.12.____cpython:
-        CONFIG: win_64_blas_implgenericcuda_compilernvcccuda_compiler_version11.8numpy1.26python3.12.____cpython
+      win_64_blas_implbliscuda_compilernvcccuda_compiler_version11.8numpy1.26python3.12.____cpython:
+        CONFIG: win_64_blas_implbliscuda_compilernvcccuda_compiler_version11.8numpy1.26python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
       win_64_blas_implmklcuda_compilerNonecuda_compiler_versionNonenumpy1.22python3.10.____cpython:
         CONFIG: win_64_blas_implmklcuda_compilerNonecuda_compiler_versionNonenumpy1.22python3.10.____cpython
@@ -79,6 +79,42 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       win_64_blas_implmklcuda_compilernvcccuda_compiler_version11.8numpy1.26python3.12.____cpython:
         CONFIG: win_64_blas_implmklcuda_compilernvcccuda_compiler_version11.8numpy1.26python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_blas_implopenblascuda_compilerNonecuda_compiler_versionNonenumpy1.22python3.10.____cpython:
+        CONFIG: win_64_blas_implopenblascuda_compilerNonecuda_compiler_versionNonenumpy1.22python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_blas_implopenblascuda_compilerNonecuda_compiler_versionNonenumpy1.22python3.9.____cpython:
+        CONFIG: win_64_blas_implopenblascuda_compilerNonecuda_compiler_versionNonenumpy1.22python3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_blas_implopenblascuda_compilerNonecuda_compiler_versionNonenumpy1.23python3.11.____cpython:
+        CONFIG: win_64_blas_implopenblascuda_compilerNonecuda_compiler_versionNonenumpy1.23python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_blas_implopenblascuda_compilerNonecuda_compiler_versionNonenumpy1.26python3.12.____cpython:
+        CONFIG: win_64_blas_implopenblascuda_compilerNonecuda_compiler_versionNonenumpy1.26python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_blas_implopenblascuda_compilercuda-nvcccuda_compiler_version12.0numpy1.22python3.10.____cpython:
+        CONFIG: win_64_blas_implopenblascuda_compilercuda-nvcccuda_compiler_version12.0numpy1.22python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_blas_implopenblascuda_compilercuda-nvcccuda_compiler_version12.0numpy1.22python3.9.____cpython:
+        CONFIG: win_64_blas_implopenblascuda_compilercuda-nvcccuda_compiler_version12.0numpy1.22python3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_blas_implopenblascuda_compilercuda-nvcccuda_compiler_version12.0numpy1.23python3.11.____cpython:
+        CONFIG: win_64_blas_implopenblascuda_compilercuda-nvcccuda_compiler_version12.0numpy1.23python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_blas_implopenblascuda_compilercuda-nvcccuda_compiler_version12.0numpy1.26python3.12.____cpython:
+        CONFIG: win_64_blas_implopenblascuda_compilercuda-nvcccuda_compiler_version12.0numpy1.26python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_blas_implopenblascuda_compilernvcccuda_compiler_version11.8numpy1.22python3.10.____cpython:
+        CONFIG: win_64_blas_implopenblascuda_compilernvcccuda_compiler_version11.8numpy1.22python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_blas_implopenblascuda_compilernvcccuda_compiler_version11.8numpy1.22python3.9.____cpython:
+        CONFIG: win_64_blas_implopenblascuda_compilernvcccuda_compiler_version11.8numpy1.22python3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_blas_implopenblascuda_compilernvcccuda_compiler_version11.8numpy1.23python3.11.____cpython:
+        CONFIG: win_64_blas_implopenblascuda_compilernvcccuda_compiler_version11.8numpy1.23python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      win_64_blas_implopenblascuda_compilernvcccuda_compiler_version11.8numpy1.26python3.12.____cpython:
+        CONFIG: win_64_blas_implopenblascuda_compilernvcccuda_compiler_version11.8numpy1.26python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
     maxParallel: 21
   timeoutInMinutes: 360
